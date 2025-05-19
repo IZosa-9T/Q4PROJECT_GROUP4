@@ -4,8 +4,8 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="stylesheet" type="text/css" href="style.css">
-      	
-      	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 
           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -13,16 +13,16 @@
 
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-      	<link rel="preconnect" href="https://fonts.googleapis.com">
-      	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      	<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap" rel="stylesheet">
 
-      	<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
-	<title>PROJECT PORTFOLIO</title>
+  <title>PROJECT PORTFOLIO</title>
 </head>
 <body class="body">
 
@@ -31,33 +31,40 @@
   <div class="navb">
    <ul class="nav nav-pills mx-auto">
       <li class="nav-item ">
-          <a class="nav-link" href="index.html" style="background-color: #73808C; border-radius: 20px;">Home</a>
+          <img src="logo.png" class="logo"> <!-- LOGO CREATED BY GANO -->
       </li>
       <li class="nav-item ">
-          <a class="nav-link" href="ticketing.html" >Quarter Projects</a>
+          <a class="nav-link" href="#home" style="background-color: #101C18; border-radius: 20px; color: white !important;">Home</a>
       </li>
       <li class="nav-item ">
-            <a class="nav-link" href="schedule.html" >What's Next</a>
+          <a class="nav-link" href="#qp" >Quarter Projects</a>
+      </li>
+      <li class="nav-item ">
+            <a class="nav-link" href="#fb" >Feedback</a>
       </li> 
       <li class="nav-item ">
-            <a class="nav-link" href="schedule.html" >Feedback</a>
+            <a class="nav-link" href="#wn" >What's Next</a>
       </li> 
 
         <form action="/search" method="get">
-          <input type="search" class="search" placeholder=" ⌕" name="query">
-          <button type="submit" class="btn subtn">Search</button>
+          <input type="search" class="search" placeholder=" Search. . ." name="query">
+          <button type="submit" class="btn subtn">⌕</button>
         </form>
     </ul>
   </div>
 
-    <div class="content container">
 
-    <div class="hero">
-      <div class="hero-content container">
-        <p class="style2">——CAJUCOM, ARIAS, KAUR, GANO, ZOSA</p>
-        <h1>— SINGULARITY</h1>
-        <p>—— Our name represents the what is beyond comprehension, the mystery at the heart of existence.<br>This portfolio contains <hl>information about</hl>: the students, our projects, and our expectations.<br> Please also feel free to give us feedback.</p>
+  <div class="content container">
 
+    <!-- ZOSA -->
+    <div class="home" id="home">
+      <div class="hero">
+        <div class="hero-content container">
+          <p class="style2">——CAJUCOM, ARIAS, KAUR, GANO, ZOSA</p>
+          <h1>— SINGULARITY</h1>
+          <p>—— Our name represents the what is beyond comprehension, the mystery at the heart of existence.<br>This portfolio contains <hl>information about</hl>: the students, our projects, and our expectations.<br> Please also feel free to give us feedback.</p>
+
+        </div>
       </div>
     </div>
 
@@ -68,7 +75,7 @@
 
             <h3>—OUR GROUP—</h3>
             <p>We are a team of five individuals who created this website driven by our shared passion.</p>
-            <br>
+            <br><br><br>
 
             <div class="profiles row">
                 <div class="card col-sm-4">
@@ -111,38 +118,251 @@
         </div>
     </div>
 
-    <!-- CAJUCOM -->
-    <div class="quarterprojects">
-      
-    </div>
-
     <!-- ARIAS -->
-    <div class="feedbackform">
-      
+    <div class="quarterprojects section1" id="qp">
+
+      <div class="center">
+        <h3>—OUR PROJECTS—</h3>
+        <p>Look through the evolvement of our coding skills, with quarter one being the beginning of our journeys.</p>
+      </div>
+      <br><br>
+
+      <div class="row">
+
+        <div class="col-sm-4">
+          <div class="center">
+            <button data-bs-toggle="collapse" data-bs-target="#Q1" class="clps"><p class="circlestyle">Q1</p></button>
+          </div>
+
+            <div id="Q1" class="collapse">
+
+              <details>
+                <summary><p>IVY ZOSA</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>MARTINA CAJUCOM</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>CALEB ARIAS</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>AKISHINO GANO</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>SIMRANDIP KAUR</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="center">
+            <button data-bs-toggle="collapse" data-bs-target="#Q2" class="clps"><p class="circlestyle">Q2</p></button>
+          </div>
+
+            <div id="Q2" class="collapse">
+
+              <details>
+                <summary><p>IVY ZOSA</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>MARTINA CAJUCOM</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>CALEB ARIAS</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>AKISHINO GANO</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>SIMRANDIP KAUR</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+            </div>
+        </div>
+
+        <div class="col-sm-4">
+          <div class="center">
+            <button data-bs-toggle="collapse" data-bs-target="#Q3" class="clps"><p class="circlestyle">Q3</p></button>
+          </div>
+
+            <div id="Q3" class="collapse">
+
+              <details>
+                <summary><p>IVY ZOSA</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>MARTINA CAJUCOM</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>CALEB ARIAS</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>AKISHINO GANO</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+
+              <details>
+                <summary><p>SIMRANDIP KAUR</p></summary>
+                <img src="">
+                <a href="">visit project</a>
+                <br><br>
+              </details>
+            </div>
+        </div>
+
+      </div>
+
+      <br><br>
+
     </div>
 
-    <!-- GANO -->
-    <div class="whatsnext">
-      
+    <!-- CAJUCOM -->
+    <div class="feedbackform section2" id="fb">
+      <div class="center">
+        <h3>—FEEDBACK FORM—</h3>
+        <p>How would you rate us and this website?</p><br><br>
+
+      <form>
+        <div class="row makenarrow">
+          <div class="col-sm-3">
+            <label for="Zosa"><p><hl>IVY ZOSA</hl></p></label><br>
+            <p><input type="number" id="Zosa"></p>
+
+            <p id="Zosarating"></p>
+
+            <label for="Arias"><p><hl>CALEB ARIAS</hl></p></label><br>
+            <p><input type="number" id="Arias"></p>
+
+            <p id="Ariasrating"></p>
+
+            <label for="Kaur"><p><hl>SIMRAN KAUR</hl></p></label><br>
+            <p><input type="number" id="Kaur"></p>
+
+            <p id="Kaurrating"></p>
+
+          </div>
+
+          <div class="col-sm-3">
+            <label for="Cajucom"><p><hl>MARTINA CAJUCOM</hl></p></label><br>
+            <p><input type="number" id="Cajucom"></p>
+
+            <p id="Cajucomrating"></p>
+
+            <label for="Gano"><p><hl>SHINO GANO</hl></p></label><br>
+            <p><input type="number" id="Gano"></p>
+
+            <p id="Ganorating"></p>
+
+        </div>
+
+          <div class="col-sm-6">
+            <div class="center">
+              <label for="comments"><p>Any comments?</p></label><br>
+              <input id="comments" type="text" class="commentc"><br>
+
+              <button type="submit" class="btn btnst1" onclick="rating()">Submit</button>
+              <button type="button" class="btn btnst1" onClick="window.location.reload()">Refresh</button>
+            </div>
+            </form><br><br><br><br><br>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="references">
-      
+    <!-- ZOSA -->
+    <div class="whatsnext section2" id="wn">
+      <div class="center">
+        <h3>—WHAT'S NEXT—</h3>
+        <p>Our expectations on what we think will happen in the future (next school year) reads:</p>
+      </div><br><br>
+
+      <div class="row makenarrow">
+        <div class="col-sm-5">
+          <p><hl>Next year in ICT,</hl> we anticipate learning more advanced coding languages. We expect to create more complex websites that will feature a greater amount of information and content. Emotionally, we believe it will be challenging at first, but we’re confident that we’ll adapt—similar to when we first began learning ICT. It was difficult initially, but with our genuine passion, adjusting won’t be too hard.</p>
+        </div>
+
+        <div class="col-sm-7">
+          <p><hl>With utmost sincerity,</hl> we are genuinely excited to learn and create even more in ICT next year. As we continue to grow and improve, we know that by the end of the next school year, we might look back at this website and realize how far we've come—perhaps even thinking it wasn't very good at all. But that’s a sign of progress. We look forward to developing our skills further, embracing more advanced tools and concepts, and building projects that reflect our growth, creativity, and dedication. Our hope is to keep learning, keep improving, and create something we can truly be proud of.</p>
+        </div>
+      </div><br><br>
+
+    </div>
+
+    <div class="references section1">
+      <p>references</p>
     </div>
 
   </div>
 
 <!-- ZOSA -->
-	
+  
   <div class="footer container-fluid">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-sm-4">
         <p class="style3">Contributors</p>
         <p><a href="https://github.com/IZosa-9T">Ivy Aguilar Zosa</a><br>
         <a> Martina Nina Louise Cuenca Cajucom</a><br>
         <a> Caleb Leon Magpoc Arias</a><br>
         <a> Prince Akishino Alcala Gano</a><br>
         <a> Simrandip Kaur</a></p>
+      </div>
+      <div class="col-sm-4">
+        <p class="style3">QuickLinks</p>
+        <p><a href="#home">home</a><br>
+        <a href="#qp" >Quarter Projects</a><br>
+        <a href="#fb" >Feedback</a><br>
+        <a href="#wn" >What's Next</a><br>
       </div>
       <div class="col-sm-4">
         <p class="style3">Where are we</p>

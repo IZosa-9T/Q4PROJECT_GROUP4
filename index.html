@@ -447,57 +447,173 @@
     </div>
 
     <!-- CAJUCOM -->
-    <div class="feedbackform section2" id="fb">
-      <div class="center">
-        <h3>—FEEDBACK FORM—</h3>
-        <p>How would you rate us and this website?</p><br><br>
+    <div class="feedbackform section2 center" id="feedback">
+		<h3>—FEEDBACK FORM—</h3>
+    	<p>Feel free to express your thoughts on our page! Give us a substancial rating on your experience. How would you rate us and this website?</p><br><br><br>
 
-      <form>
-        <div class="row makenarrow">
-          <div class="col-sm-3">
-            <label for="Zosa"><p><hl>IVY ZOSA</hl></p></label><br>
-            <p><input type="number" id="Zosa"></p>
+		<form>
+			<h4>-Team Feedback-</h4>
 
-            <p id="Zosarating"></p>
+      		<hr>
 
-            <label for="Arias"><p><hl>CALEB ARIAS</hl></p></label><br>
-            <p><input type="number" id="Arias"></p>
+			<br>
 
-            <p id="Ariasrating"></p>
+			<div class="row makenarrow">
+				<div class="col-sm-3">
+		      		<label for="Cajucom"><p><hl>CONTENT</hl></p></label><br>
+		     		<select class="commentc" id="content" name="content">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		       			<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
 
-            <label for="Kaur"><p><hl>SIMRAN KAUR</hl></p></label><br>
-            <p><input type="number" id="Kaur"></p>
+		      		<br>
+		      		<br>
 
-            <p id="Kaurrating"></p>
+		     		<label for="Cajucom"><p><hl>PROJECT OUTPUT</hl></p></label><br>
+					<select  class="commentc" id="project" name="project">
+						<option value="">Select</option>
+		      			<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		     		</select>
+     			</div>
 
-          </div>
+	     		<br>
+	     		<br>
 
-          <div class="col-sm-3">
-            <label for="Cajucom"><p><hl>MARTINA CAJUCOM</hl></p></label><br>
-            <p><input type="number" id="Cajucom"></p>
+	     		<div class="col-sm-3">
+		    		<label for="Cajucom"><p><hl>CREATIVITY</hl></p></label><br>
+		     		<select class="commentc" id="creativity" name="creativity">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
 
-            <p id="Cajucomrating"></p>
+		      		<br>
+		      		<br>
 
-            <label for="Gano"><p><hl>SHINO GANO</hl></p></label><br>
-            <p><input type="number" id="Gano"></p>
+		      		<label for="Cajucom"><p><hl>MARTINA CAJUCOM</hl></p></label><br>
+		      		<select class="commentc" id="teamwork" name="teamwork">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
+		      	</div>
 
-            <p id="Ganorating"></p>
+      			<br>
+      			<br>
 
-        </div>
+      		<div class="col-sm-6">
+				<label for="Cajucom"><p><hl>MARTINA CAJUCOM</hl></p></label><br>
+	      		<textarea id="comments" name="comments" class="commentc" rows="4" placeholder="Write your feedback here..."></textarea>
 
-          <div class="col-sm-6">
-            <div class="center">
-              <label for="comments"><p>Any comments?</p></label><br>
-              <input id="comments" type="text" class="commentc"><br>
+	      		<br>
+	   			<br>
 
-              <button type="submit" class="btn btnst1" onclick="rating()">Submit</button>
-              <button type="button" class="btn btnst1" onClick="window.location.reload()">Refresh</button>
+	   			<button type="submit" class="btn btnst1" onclick="feedback()">Submit</button>
+      			<button type="button" class="btn btnst1" onClick="window.location.reload()">Refresh</button>
+      			<br>
+      			<br>
+      			<br>
+      			<br>
+      		</div>
+      	</div>
+
+	      	<h4>-Individual Feedback-</h4>
+
+      		<hr>
+
+			<br>
+
+			<div class="row makenarrow">
+				<div class="col-sm-3">
+	            	<label for="Zosa"><p><hl>IVY ZOSA</hl></p></label><br>
+	            	<select class="commentc" id="Zosa">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
+
+	            	<p id="Zosarating"></p>
+
+	           	 	<label for="Arias"><p><hl>CALEB ARIAS</hl></p></label><br>
+	            	<select class="commentc" id="Arias">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
+	            	<p id="Ariasrating"></p>
+
+	            	<label for="Kaur"><p><hl>SIMRAN KAUR</hl></p></label><br>
+	            	<select class="commentc" id="Kaur">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
+
+	            	<p id="Kaurrating"></p>
+
+	          		</div>
+
+	          		<div class="col-sm-3">
+	            	<label for="Cajucom"><p><hl>MARTINA CAJUCOM</hl></p></label><br>
+	            	<select class="commentc" id="Cajucom">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
+
+	            	<p id="Cajucomrating"></p>
+
+	            	<label for="Gano"><p><hl>SHINO GANO</hl></p></label><br>
+	            	<<select class="commentc" id="Gano">
+		        		<option value="">Select</option>
+		        		<option value="1">1 - Poor</option>
+		        		<option value="2">2 - Fair</option>
+		        		<option value="3">3 - Good</option>
+		        		<option value="4">4 - Very Good</option>
+		        		<option value="5">5 - Excellent</option>
+		      		</select>
+
+	            	<p id="Ganorating"></p>
+	        	</div>
+
+	          	<div class="col-sm-6">
+	            	<div class="center">
+	              		<label><p><hl>ADDITIONAL COMMENTS</hl></p></label><br>
+	      				<textarea id="comments" name="comments" class="commentc" rows="4" placeholder="Write your feedback here..."></textarea>
+
+	              		<button type="submit" class="btn btnst1" onclick="feedback2()">Submit</button>
+	              		<button type="button" class="btn btnst1" onClick="window.location.reload()">Refresh</button>
+	            	</div>
+            	</div>
             </div>
-            </form><br><br><br><br><br>
-          </div>
-        </div>
-      </div>
-    </div>
+   		</form>
+	</div>
 
     <!-- ZOSA -->
     <div class="whatsnext section2" id="wn">

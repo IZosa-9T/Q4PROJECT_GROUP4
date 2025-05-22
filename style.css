@@ -122,6 +122,12 @@
 	margin-bottom: 20px !important;
 }
 
+.proj-card {
+	width: 100% !important;
+	text-align: center !important;
+	padding: 20px !important;
+}
+
 .profileinformation {
 	text-align: center !important;
 }

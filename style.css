@@ -129,6 +129,13 @@
 	padding: 20px !important;
 }
 
+.card-header {
+	font-family: Montserrat;
+	text-align: center !important;
+	color: white !important;
+	background-color: rgb(62, 75, 97);
+}
+
 .profileinformation {
 	text-align: center !important;
 }

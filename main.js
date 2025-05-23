@@ -1,6 +1,6 @@
 function feedback() {
-	var content = parseInt(document.getElementById("content").value);
-	var project = parseInt(document.getElementById("project").value);
+    var content = parseInt(document.getElementById("content").value);
+    var project = parseInt(document.getElementById("project").value);
     var teamwork = parseInt(document.getElementById("teamwork").value);
     var creativity = parseInt(document.getElementById("creativity").value);
     var rating = parseInt((content + project + teamwork + creativity) / 4)
@@ -48,4 +48,3 @@ function feedback2() {
     }
 
 }
-
